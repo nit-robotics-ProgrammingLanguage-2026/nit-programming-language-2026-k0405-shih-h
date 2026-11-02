@@ -8,9 +8,16 @@ int main(void) {
      とする．また，xの値はキーボードからdoubleとして入力するものとする．
      これらの値すべてをdouble型として計算した計算結果のa(桁数指定なし)を表示するようなプログラムとせよ．
      */
-    
-
-
-     
+    double r = 4.0;
+double pi = 3.141592;
+double x;
+     double radius;
+     double cricumference;
+     double a;
+     scanf("%lf",&x);
+     radius=r/2.0;
+     circumference=2.0*pi*radius;
+     a=(x/circumference)*360.0;
+     printf("%f\n",a);
     return 0;
 }
